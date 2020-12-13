@@ -6,7 +6,7 @@
 ]
 
 var search = document.getElementById("search");
-var clear = document.getElementById("");
+var clear = document.getElementById("clear");
 
 function shuffle {
     for (i = 0; i < capitalStates.length; i++) {
@@ -23,4 +23,5 @@ function shuffle {
 };
 
 document.getElementById("search").addEventListener("click", shuffle);
+document.getElementById("clear").addEventListener("click");
 */
