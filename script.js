@@ -14,6 +14,8 @@ function shuffle {
 }
 
 if (search.clicked == true) {
-    text.stringify
+    capitalStates.stringify (Call API for capitalStates Object data to be filled?);
+} else if (clear.clicked == true) {
+    NAVBAR.clearText?;
 }
 */
