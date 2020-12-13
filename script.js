@@ -4,3 +4,5 @@
     currentTemp: "";
     weeklyTemp: "";
 ]
+
+*/
