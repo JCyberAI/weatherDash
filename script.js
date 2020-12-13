@@ -7,7 +7,7 @@
 
 var search = document.getElementById("search");
 var clear = document.getElementById("clear");
-var searchBar = document.querySelector("SEARCH BAR HTML ELEMENT");
+var searchBar = document.querySelector(".topnav input");
 
 function shuffle {
     for (i = 0; i < capitalStates.length; i++) {
