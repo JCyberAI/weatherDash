@@ -7,6 +7,7 @@
 
 var search = document.getElementById("search");
 var clear = document.getElementById("clear");
+var searchBar = document.querySelector("SEARCH BAR HTML ELEMENT");
 
 function shuffle {
     for (i = 0; i < capitalStates.length; i++) {
@@ -18,7 +19,7 @@ function shuffle {
     } else if (clear.clicked == true) {
          NAVBAR.clearText?;
     } else {
-        console.log(search);
+        console.log(SEARCH BAR HTML ELEMENT);
     };
 };
 
