@@ -5,7 +5,8 @@
     weeklyTemp: "";
 ]
 
-var search = document.getElementById("search")
+var search = document.getElementById("search");
+var clear = document.getElementById("");
 
 function shuffle {
     for (i = 0; i < capitalStates.length; i++) {
@@ -21,5 +22,5 @@ function shuffle {
     };
 };
 
-
+document.getElementById("search").addEventListener("click", shuffle);
 */
