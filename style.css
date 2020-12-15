@@ -6,8 +6,9 @@
 .wrapper {
     height: 100%;
     border: 10px;
-    display: relative;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 /* Add a black background color to the top navigation bar */
