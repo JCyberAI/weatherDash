@@ -1,4 +1,3 @@
-/* 
 var search = document.getElementById("search");
 var clear = document.getElementById("clear");
 var searchBar = document.querySelector(".topnav input");
@@ -26,4 +25,3 @@ function shuffle {
 
 document.getElementById("search").addEventListener("click", shuffle);
 document.getElementById("clear").addEventListener("click");
-*/
