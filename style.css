@@ -1,15 +1,21 @@
 * {
-    margin: 50px;
-    padding: 5px;
+    margin: auto;
 }
 
 h1 {
   text-align: center;
+  background: olive;
 }
 
 .wrapper {
     justify-content: center;
     align-items: center;
+}
+
+.place,
+button {
+  position: relative;
+  float: left;
 }
 
 /* Style the search box inside the navigation bar */
