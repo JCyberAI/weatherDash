@@ -1,15 +1,21 @@
 * {
     margin: auto;
+    padding: auto;
 }
 
 h1 {
   text-align: center;
-  background-image: url(cloud.gif)
+  background-image: url(cloud.gif);
 }
 
 .wrapper {
+  position: absolute;
     justify-content: center;
     align-items: center;
+}
+
+input {
+  width: 10px;
 }
 
 .place,
@@ -41,4 +47,8 @@ button {
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
+}
+
+.current {
+  float: right;
 }
